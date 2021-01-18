@@ -11,7 +11,7 @@ SET time_zone = "+07:00";
 --
 -- Table structure for table `aboutus_setup`
 --
-
+CREATE DATABASE phanhai
 CREATE TABLE `aboutus_setup` (
   `id` int(11) NOT NULL,
   `shortdesc` text NOT NULL,
