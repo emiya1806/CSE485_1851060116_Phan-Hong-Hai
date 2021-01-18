@@ -21,19 +21,19 @@
 </select></div>
                      <div class="form-group col-md-8">
     <label for="sn">Course/Position Name</label>
-    <input type="text" name="title" class="form-control" id="website" placeholder="Bacheolrs Of Computer Application" required>
+    <input type="text" name="title" class="form-control" id="website" placeholder="Information Techonology" required>
   </div>
    <div class="form-group col-md-8">
     <label for="website">Institute or Company Name</label>
-    <input type="text" name="ogname" class="form-control" id="website" placeholder="Working at Hedkey India Pvt. Ltd. , New Delhi" required>
+    <input type="text" name="ogname" class="form-control" id="website" placeholder="Thuy Loi University" required>
   </div>
    <div class="form-group col-md-4">
     <label for="website">Duration or Time Period</label>
-    <input type="text" name="year" class="form-control" id="website" placeholder="2018-2019" required>
+    <input type="text" name="year" class="form-control" id="website" placeholder="2018-Present" required>
   </div>
   <div class="form-group col-md-12">
     <label for="exampleFormControlTextarea1">Description (leave blank if you dont want to)</label>
-    <textarea class="form-control" name="workdesc" id="exampleFormControlTextarea1" rows="3" placeholder="I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I'm not comfortable with settling, and I'm always looking for an opportunity to do better and achieve greatness. In my previous role, I was promoted three times in less than two years."></textarea>
+    <textarea class="form-control" name="workdesc" id="exampleFormControlTextarea1" rows="3" placeholder="I am noob"></textarea>
   </div>
    <div class="form-group col-md-2 ml-auto">
 <!--     <label class="text-white">submi</label>-->
