@@ -11,6 +11,7 @@ $data = mysqli_fetch_array($run);
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <title><?=$data['title']?></title>
     <meta content="<?=$data['description']?>" name="description">
     <meta content="<?=$data['keyword']?>" name="keywords">
@@ -32,13 +33,6 @@ $data = mysqli_fetch_array($run);
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
     <style>
         #hero {
             background: url(assets/img/<?=$data['homewallpaper']?>);
@@ -76,7 +70,7 @@ $data = mysqli_fetch_array($run);
                     <a href="<?=$data['instagram']?>" class="instagram"><i class="bx bxl-instagram"></i></a>
                     <?php
         }
-       if($data['reddit']!=""){
+        if($data['reddit']!=""){
             ?>
                     <a href="<?=$data['reddit']?>" class="reddit"><i class="bx bxl-reddit"></i></a>
                     <?php
@@ -404,8 +398,4 @@ while($data5=mysqli_fetch_array($runquery5)){
 
     </script>
 </body>
-
-
-<!-- Mirrored from bootstrapmade.com/demo/themes/iPortfolio/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 May 2020 03:40:16 GMT -->
-
 </html>
