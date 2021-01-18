@@ -1,8 +1,16 @@
-
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+07:00";
+
+
+-- Database: `phanhai`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `aboutus_setup`
+--
 
 CREATE TABLE `aboutus_setup` (
   `id` int(11) NOT NULL,
@@ -97,9 +105,9 @@ CREATE TABLE `personal_setup` (
   `twitter` varchar(200) NOT NULL,
   `facebook` varchar(200) NOT NULL,
   `instagram` varchar(200) NOT NULL,
-  `reddit` varchar(200) NOT NULL,
-  `twitch` varchar(200) NOT NULL,
-  `spotify` varchar(200) NOT NULL,
+  `skype` varchar(200) NOT NULL,
+  `linkedin` varchar(200) NOT NULL,
+  `github` varchar(200) NOT NULL,
   `homewallpaper` varchar(200) NOT NULL,
   `professions` varchar(200) NOT NULL,
   `location` text NOT NULL,
@@ -111,7 +119,8 @@ CREATE TABLE `personal_setup` (
 -- Dumping data for table `personal_setup`
 --
 
-INSERT INTO `personal_setup` (`id`, `profilepic`, `name`, `twitter`, `facebook`, `instagram`, `reddit`, `twitch`, `spotify`, `homewallpaper`, `professions`, `location`, `mobile`, `emailid`) VALUES ('1', 'profile-img.jpg', '', 'https://twitter.com/k1ller_Que3n', 'https://www.facebook.com/profile.php?id=100027259371639', 'https://www.instagram.com/k1llerque3n/', 'https://www.reddit.com/u/k1ller_Que3n', 'https://www.twitch.tv/killer_qu3en', 'https://open.spotify.com/user/31j5wci3pc3bmg7hv6zgdsyrcapq', 'https://github.com/emiya1806', 'Student', '8/16/37/349 Minh Khai, Ha Noi, Viet Nam', '+84934342000', 'emiya1806@gmail.com')
+INSERT INTO `personal_setup` (`id`, `profilepic`, `name`, `twitter`, `facebook`, `instagram`, `reddit`, `twitch`, `spotify`, `homewallpaper`, `professions`, `location`, `mobile`, `emailid`) VALUES 
+(1, 'profile-img.jpg', 'Phan Hai', 'https://twitter.com/k1ller_Que3n', 'https://www.facebook.com/profile.php?id=100027259371639', 'https://www.instagram.com/k1llerque3n/', 'https://www.reddit.com/u/k1ller_Que3n', 'https://www.twitch.tv/killer_qu3en', 'https://open.spotify.com/user/31j5wci3pc3bmg7hv6zgdsyrcapq', 'hero-bg.jpg', 'Student', '8/16/37/349 Minh Khai, Ha Noi, Viet Nam', '+84934342000', 'emiya1806@gmail.com')
 
 -- --------------------------------------------------------
 
@@ -134,8 +143,7 @@ INSERT INTO `portfolio` (`id`, `projectname`, `projectpic`, `projectlink`) VALUE
 (8, '', 'portfolio-1.jpg', '#'),
 (9, '', 'portfolio-2.jpg', '#'),
 (10, '', 'portfolio-3.jpg', '#'),
-(11, '', 'portfolio-6.jpg', ''),
-(12, '', 'portfolio-6.jpg', '');
+(11, '', 'portfolio-6.jpg', '3'),
 
 -- --------------------------------------------------------
 
